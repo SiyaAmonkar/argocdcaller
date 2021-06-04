@@ -19,7 +19,7 @@ spec:
           chmod +x argo-linux-amd64
           mv ./argo-linux-amd64 /usr/local/bin/argo
           argo list
-          cd argoworkflowl
+          cd argoworkflow
           argo submit example.yaml
     resources:
       limits:
