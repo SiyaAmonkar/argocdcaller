@@ -21,6 +21,5 @@ spec:
           argo list
           cd argoworkflow
           argo submit example.yaml
-          exit
   restartPolicy: OnFailure
     
