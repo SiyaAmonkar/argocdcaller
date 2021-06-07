@@ -21,6 +21,7 @@ spec:
           argo list
           cd argoworkflow
           argo submit example.yaml
+          exit
     resources:
       limits:
         memory: 600Mi
